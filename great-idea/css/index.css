@@ -64,3 +64,146 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Copy and paste your work from yesterday here and start to refactor into flexbox */
+
+body{
+	padding:10px;
+}
+
+header{
+	display:flex;
+	flex-wrap: wrap;
+   flex-direction: row;
+   justify-content: space-evenly;
+   margin-bottom: 15px;
+
+}
+
+header nav{
+
+	display: flex;
+	margin-right: 300px;
+	padding: 10px;
+	
+	/* border:1px solid red; */
+}
+header nav a{
+	color:gray;
+	margin: 20px;
+	display:flex;
+	align-content: space-around;
+	text-decoration:none;
+	vertical-align: middle;
+	border:1px solid red;
+
+}
+
+header img.logo{
+
+	display: flex;
+	align-self: flex-end;
+	border:1px solid red;
+   
+
+} 
+
+.top-left{
+
+	display:flex;
+	justify-content: space-evenly;
+	flex-direction: row;
+	align-items:baseline;
+	margin-bottom: 35px;
+   	border-bottom: 1px solid black;
+   
+}
+.top-screen{
+   text-align:center;
+   margin:150px;
+   border:1px solid red;
+}
+.top-screen h1{
+	font-size: 100px;
+	padding: 20px;
+    border:1px solid red;
+
+   /* text-align: center; */
+}
+/* button{
+   margin-left:110px;
+} */
+
+/*@keyframes fade {
+   from {background-color: red; color: white;}
+   to {background-color: white; color: #F87B99;}
+ }
+
+button:hover{
+   
+   animation-name: fade;
+   animation-duration: 0.5s;
+   margin-left: 110px;
+}*/
+button{
+	font-size: 20px;
+    padding: 5px 30px;
+    border: 1px solid black;
+    margin-bottom: 10px;
+}
+
+.top-screen , .top-left.img{
+	
+   margin-right: 250px;
+   border:1px solid red;
+}
+
+.top-left img{
+
+	display: flex;
+    align-self: center;
+	border:1px solid red;
+
+}
+.middle-img{
+
+	margin-top: 20px;
+	margin-bottom: 20px;
+   	width:100%;
+}
+.features, .about{
+	display:inline-flex;
+	flex-direction: column;
+	justify-content: flex-start;
+	padding: 0px;
+	width: 671px;
+ 	border:1px solid red;
+ }
+/* .features {
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-start;
+
+}
+.features p{
+	display: flex;
+	flex-direction: column
+} */
+
+.services, .product, .vision {
+    display: inline-flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    width: 440px;
+    margin-right: 6px;
+    border: 1px solid red;
+}
+
+
+.address{
+   
+margin-top: 35px;
+   border-top: 1px solid black;
+   padding: 60px 0px 10px 0px;
+}
+footer{
+	text-align:center;
+}
